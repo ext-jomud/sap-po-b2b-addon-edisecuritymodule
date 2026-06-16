@@ -1,0 +1,46 @@
+package com.sap.aii.edi.sec.module;
+
+public abstract class ModuleParams {
+   public static final String MESSAGE_DIRECTION = "secureMsgDirection";
+   public static final String OWN_PRIVATE_KEY_VIEW = "ownPrivateKeyView";
+   public static final String OWN_PRIVATE_KEY_ALIAS = "ownPrivateKeyAlias";
+   public static final String OWN_CERTIFICATE_VIEW = "ownCertificateView";
+   public static final String OWN_CERTIFICATE_ALIAS = "ownCertificateAlias";
+   public static final String PARTNER_CERTIFICATE_VIEW = "partnerCertificateView";
+   public static final String PARTNER_CERTIFICATE_ALIAS = "partnerCertificateAlias";
+   public static final String SECURITY_ENC_TYPE = "encodingType";
+   public static final String SECURITY_FILTER_TYPE = "filterAlgorithm";
+   public static final String SECURITY_SCOPE = "securityScope";
+   public static final String SECURITY_CERT_REQUIRED = "includeOwnCertificate";
+   public static final String GENERATE_AUTACK = "generateAutAck";
+   public static final String RESPONSE_TYPE = "requireAUTACK";
+   public static final String FETCH_CERT_FROM_KEYSTORE = "usePartnerCertFromNWA";
+   public static final String VERIFY_MSG_SIGNATURE = "verifyMsgSignature";
+   public static final String AUTACK_VEERSION = "autackVersion";
+   public static final String MESSAGE_ENCODING = "messageEncoding";
+   public static final String MESSAGE_BIN_DATA_ENCODING = "messageBinDataEncoding";
+   public static final String USC_ADVANCED = "edi.sec.USCAdvanced";
+   public static final String SECURITY_PARTY_QUALIFIER = "edi.sec.partyQualifier";
+   public static final String SECURITY_SERVICE = "edi.sec.service";
+   public static final String SECURITY_REF_NUMBER = "edi.sec.referenceNumber";
+   public static final String SECURITY_PROVIDER_ROLE = "edi.sec.providerRole";
+   public static final String SECURITY_SEQ_NUM = "edi.sec.sequenceNo";
+   public static final String SECURITY_ALGORITHM = "edi.sec.algorithm";
+   public static final String SECURITY_CRYPT_MODE = "edi.sec.cryptographicMode";
+   public static final String SECURITY_OPERATION_ID = "edi.sec.operationID";
+   public static final String SECURITY_ALGORITHM_CODE_ID = "edi.sec.algorithmCodeID";
+   public static final String SECURITY_ALGORITHM_CODE_CODED = "edi.sec.algorithmCodeCoded";
+   public static final String SECURITY_PADDING_MECH = "edi.sec.paddingMechanism";
+   public static final String SECURITY_PADDING_MECH_CODED = "edi.sec.paddingMechanismCoded";
+   public static final String SECURITY_ALGORITHM_QUAL = "edi.sec.algorithmQualifier";
+   public static final String SECURITY_ALGORITHM_VALUE = "edi.sec.algorithmValue";
+   public static final String SECURITY_CERT_REF = "edi.sec.certificateReference";
+   public static final String SECURITY_CERT_SYNTAX = "edi.sec.certificateSyntax";
+   public static final String SECURITY_ORG_CHARSET_ENCODING = "edi.sec.orgCharsetEnc";
+   public static final String SECURITY_CERT_ORG_CHARSET = "edi.sec.certificateOrgCharset";
+   public static final String SECURITY_USER_AUTH_LEVEL = "edi.sec.userAuthorisationLevel";
+   public static final String SECURITY_SERVICE_CHAR = "edi.sec.serviceChar";
+   public static final String SECURITY_SERVICE_CHAR_QUAL = "edi.sec.serviceCharQual";
+   public static final String SECURITY_STATUS_CODE = "edi.sec.statusCode";
+   public static final String SECURITY_REVOCATION_REASON_CODE = "edi.sec.revocationReasonCode";
+}
